@@ -1,0 +1,143 @@
+{
+ "kind": "calendar#calendarList",
+ "etag": "\"p338c3pdmj2sv80g\"",
+ "nextSyncToken": "CNDB5baYufQCEhhzYWhpbGNodWdoMjAwMEBnbWFpbC5jb20=",
+ "items": [
+  {
+   "kind": "calendar#calendarListEntry",
+   "etag": "\"1637881046799000\"",
+   "id": "sahilchugh2000@gmail.com",
+   "summary": "sahilchugh2000@gmail.com",
+   "timeZone": "Europe/London",
+   "colorId": "17",
+   "backgroundColor": "#9a9cff",
+   "foregroundColor": "#000000",
+   "selected": true,
+   "accessRole": "owner",
+   "defaultReminders": [
+    {
+     "method": "popup",
+     "minutes": 30
+    }
+   ],
+   "notificationSettings": {
+    "notifications": [
+     {
+      "type": "eventCreation",
+      "method": "email"
+     },
+     {
+      "type": "eventChange",
+      "method": "email"
+     },
+     {
+      "type": "eventCancellation",
+      "method": "email"
+     },
+     {
+      "type": "eventResponse",
+      "method": "email"
+     }
+    ]
+   },
+   "primary": true,
+   "conferenceProperties": {
+    "allowedConferenceSolutionTypes": [
+     "hangoutsMeet"
+    ]
+   }
+  },
+  {
+   "kind": "calendar#calendarListEntry",
+   "etag": "\"1637885232587000\"",
+   "id": "uo6s5ommcpb1snvsea8aq5hv10@group.calendar.google.com",
+   "summary": "TestCalender",
+   "timeZone": "Europe/London",
+   "colorId": "1",
+   "backgroundColor": "#ac725e",
+   "foregroundColor": "#000000",
+   "selected": true,
+   "accessRole": "owner",
+   "defaultReminders": [],
+   "conferenceProperties": {
+    "allowedConferenceSolutionTypes": [
+     "hangoutsMeet"
+    ]
+   }
+  },
+  {
+   "kind": "calendar#calendarListEntry",
+   "etag": "\"1637885247212000\"",
+   "id": "addressbook#contacts@group.v.calendar.google.com",
+   "summary": "Birthdays",
+   "description": "Displays birthdays, anniversaries and other event dates of people in Google Contacts.",
+   "timeZone": "Europe/London",
+   "colorId": "13",
+   "backgroundColor": "#92e1c0",
+   "foregroundColor": "#000000",
+   "selected": true,
+   "accessRole": "reader",
+   "defaultReminders": [],
+   "conferenceProperties": {
+    "allowedConferenceSolutionTypes": [
+     "hangoutsMeet"
+    ]
+   }
+  },
+  {
+   "kind": "calendar#calendarListEntry",
+   "etag": "\"1637885251349000\"",
+   "id": "en.indian#holiday@group.v.calendar.google.com",
+   "summary": "Holidays in India",
+   "description": "Holidays and Observances in India",
+   "timeZone": "Europe/London",
+   "colorId": "8",
+   "backgroundColor": "#16a765",
+   "foregroundColor": "#000000",
+   "selected": true,
+   "accessRole": "reader",
+   "defaultReminders": [],
+   "conferenceProperties": {
+    "allowedConferenceSolutionTypes": [
+     "hangoutsMeet"
+    ]
+   }
+  },
+  {
+   "kind": "calendar#calendarListEntry",
+   "etag": "\"1638019735709000\"",
+   "id": "6t143o88eb15ga56rmg2eqha00@group.calendar.google.com",
+   "summary": "Stay MC",
+   "timeZone": "Europe/London",
+   "colorId": "16",
+   "backgroundColor": "#4986e7",
+   "foregroundColor": "#000000",
+   "selected": true,
+   "accessRole": "owner",
+   "defaultReminders": [],
+   "conferenceProperties": {
+    "allowedConferenceSolutionTypes": [
+     "hangoutsMeet"
+    ]
+   }
+  },
+  {
+   "kind": "calendar#calendarListEntry",
+   "etag": "\"1638019736068000\"",
+   "id": "dlqk7sjo3utpch2k48jlbbqdn0@group.calendar.google.com",
+   "summary": "DeekshaTest",
+   "timeZone": "Europe/London",
+   "colorId": "1",
+   "backgroundColor": "#ac725e",
+   "foregroundColor": "#000000",
+   "selected": true,
+   "accessRole": "owner",
+   "defaultReminders": [],
+   "conferenceProperties": {
+    "allowedConferenceSolutionTypes": [
+     "hangoutsMeet"
+    ]
+   }
+  }
+ ]
+}

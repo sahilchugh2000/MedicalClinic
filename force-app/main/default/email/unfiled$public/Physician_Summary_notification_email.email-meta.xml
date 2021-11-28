@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Physician Summary notification email</name>
+    <style>none</style>
+    <subject>Please share public Calender name</subject>
+    <textOnly>Hello {!Physician__c.Name},
+
+Congratulations, you have been successfully registered and added as a Physician in our Medical centre system, please follow below instructions to share one of your Google calender details with us so that we can start making appointments for you :
+
+
+1. Please navigate to your Google calender and add a new calender.
+2. Share your calender with {!User.Name} or {!User.Email}
+
+
+Please do get in touch with us in case of any issues.
+
+Thank you,
+MEDICAL CENTRE</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

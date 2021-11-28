@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Appt details</name>
+    <style>none</style>
+    <subject>Confirmation to Medial Appointment</subject>
+    <textOnly>&lt;table align=&quot;center&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;background-color:#fff;&quot; width=&quot;600&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td align=&quot;left&quot; style=&quot;padding:10px;&quot;&gt;
+                &lt;p&gt;&lt;font face=&quot;Arial, Helvetica, sans-serif&quot; size=&quot;2&quot;&gt;Hello ,&lt;/font&gt;&lt;/p&gt;
+
+                &lt;p&gt;&lt;font face=&quot;Arial, Helvetica, sans-serif&quot; size=&quot;2&quot;&gt;A medical appointment has been booked for you and below are the details :&lt;/font&gt;&lt;/p&gt;
+
+                &lt;p&gt;
+                    &lt;font face=&quot;Arial, Helvetica, sans-serif&quot; size=&quot;2&quot;&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;&lt;b&gt;Doctor Name: &lt;/b&gt;{!Physician__c.Name}&lt;/li&gt;
+                            &lt;li&gt;&lt;b&gt;Appointment Date and Time: &lt;/b&gt; {!Appointment__c.	Appointment_Date_and_Time__c}&lt;/li&gt;
+
+                        &lt;/ul&gt;
+                    &lt;/font&gt;
+                &lt;/p&gt;
+
+                &lt;p&gt;&lt;font face=&quot;Arial, Helvetica, sans-serif&quot; size=&quot;2&quot;&gt;Please review and contact medical centre for any changes.&lt;/font&gt;&lt;/p&gt;
+
+                &lt;p&gt;
+                    &lt;font face=&quot;Arial, Helvetica, sans-serif&quot; size=&quot;2&quot;&gt;
+                        Thank you,&lt;br /&gt;
+                        &lt;b&gt;MEDICAL CENTRE&lt;/b&gt;
+                    &lt;/font&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+
+    &lt;/tbody&gt;
+&lt;/table&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

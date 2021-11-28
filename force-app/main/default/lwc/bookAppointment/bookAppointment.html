@@ -1,0 +1,25 @@
+<template>
+  <lightning-card title="Book Appointment" icon-name="standard:user" >
+  <div>
+  <lightning-layout  class="slds-form_horizontal slds-form slds-grid slds-wrap">
+    <lightning-layout-item size="7">
+      <lightning-input type="text" label="Patient Email" value={patientEmail} onchange={handledChange} name="patientEmail" required></lightning-input>
+    </lightning-layout-item>
+      <lightning-layout-item size="1">
+      </lightning-layout-item>
+<lightning-layout-item size="7">
+<lightning-input type="datetime" name="apptDatetime" label="Appointment" value={apptDatetime} onchange={handledChange} required></lightning-input>
+</lightning-layout-item>
+<lightning-layout-item size="1">
+</lightning-layout-item>
+<lightning-layout-item size="2">
+  <lightning-button label="Submit"  onclick={handleClick} ></lightning-button>
+    </lightning-layout-item>
+
+  </lightning-layout>
+</div>
+
+
+
+</lightning-card>
+</template>

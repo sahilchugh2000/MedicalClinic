@@ -1,0 +1,39 @@
+<template>
+  <lightning-card title="Physicians" icon-name="standard:user" >
+    <div class="slds-grid">
+    <lightning-layout class="slds-col slds-size_12-of-12 slds-wrap">
+
+    <lightning-layout-item size="7">
+      <template if:true={physicianList}>
+        <div style="height: 200px">
+        <lightning-datatable data={physicianList} columns={columns} key-field="Id" onrowselection={getSelectedName} >
+        </lightning-datatable>
+      </div>
+        <div>
+          <lightning-layout>
+          <lightning-layout-item>
+            <template if:true={calenderId}>
+            <c-book-appointment calender-id = {calenderId} summary = {summary}></c-book-appointment>
+          </template>
+          </lightning-layout-item>
+              </lightning-layout>
+          </div>
+
+    </template>
+    </lightning-layout-item>
+
+    <lightning-layout-item size="3" >
+      <template if:true={calenderUrl}>
+      <c-physician-calender calender-url = {calenderUrl}></c-physician-calender>
+    </template>
+    </lightning-layout-item>
+        </lightning-layout>
+
+    </div>
+  </lightning-card>
+
+
+
+
+
+</template>

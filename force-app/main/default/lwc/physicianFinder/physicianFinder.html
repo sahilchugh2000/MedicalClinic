@@ -1,0 +1,22 @@
+<template>
+  <lightning-card title="Select Specialization first to book appointments" icon-name="standard:user">
+    <div>
+        <lightning-layout class="slds-var-m-top_large slds-var-p-right_medium">
+            <lightning-layout-item size="2">
+            </lightning-layout-item>
+    <lightning-layout-item size="3">
+        <template if:true={specializationPicklist}>
+            <lightning-combobox name="Specialization" value={value} label = "Specialization"
+                options={specializationPicklist} onchange={handleChange}>
+            </lightning-combobox>
+        </template>
+    </lightning-layout-item>
+<lightning-layout-item size="2">
+    </lightning-layout-item>
+    <lightning-layout-item size="3">
+            <lightning-textarea name="input5" disabled value={price} label="Appointment Price (£)"></lightning-textarea>
+        </lightning-layout-item>
+        </lightning-layout>
+    </div>
+</lightning-card>
+</template>

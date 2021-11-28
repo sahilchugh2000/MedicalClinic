@@ -1,0 +1,5 @@
+:host {
+  --sds-c-textarea-sizing-min-height: 2px;
+  --sds-c-textarea-spacing-inline-start : 2px;
+  --sds-c-textarea-spacing-block-start : 2px;
+}
